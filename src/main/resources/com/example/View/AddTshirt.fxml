@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="600.0" style="-fx-background-color: F2DEBA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.View.AddTshirtController">
+   <left>
+      <Pane prefHeight="400.0" prefWidth="248.0" style="-fx-background-color: #0E5E6F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="18.0" layoutY="154.0" style="-fx-border-color: #F2DEBA; -fx-border-width: 0px 0px 4px 4px;" text="Add T-shirt" textFill="#eb6440">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="138.0" layoutY="183.0" style="-fx-border-color: #F2DEBA; -fx-border-width: 0px 0px 4px 4px;" text="Menu" textFill="#eb6440">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </left>
+   <right>
+      <Pane prefHeight="400.0" prefWidth="357.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="111.0" layoutY="55.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCreatetShirt" layoutX="93.0" layoutY="291.0" mnemonicParsing="false" onAction="#btnCreateTshirt" prefHeight="41.0" prefWidth="167.0" style="-fx-background-color: transparent; -fx-border-color: #379237; -fx-border-width: 1px 1px 0px 0px;" text="Save" textFill="#3aa83a">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtDescription" layoutX="190.0" layoutY="219.0" prefHeight="33.0" prefWidth="141.0" promptText="Description" style="-fx-background-color: transparent; -fx-border-color: #59C1BD;" />
+            <TextField fx:id="txtPrice" layoutX="14.0" layoutY="219.0" prefHeight="33.0" prefWidth="141.0" promptText="Price" style="-fx-background-color: transparent; -fx-border-color: #59C1BD;" />
+            <TextField fx:id="txtSize" layoutX="13.0" layoutY="135.0" prefHeight="33.0" prefWidth="141.0" promptText="Size" style="-fx-background-color: transparent; -fx-border-color: #59C1BD;" />
+            <TextField fx:id="txtidTshirt" layoutX="14.0" layoutY="44.0" prefHeight="32.0" prefWidth="140.0" promptText="ID" style="-fx-background-color: transparent; -fx-border-color: #59C1BD;" />
+            <TextField fx:id="txtColor" layoutX="193.0" layoutY="43.0" prefHeight="33.0" prefWidth="141.0" promptText="Color" style="-fx-background-color: transparent; -fx-border-color: #59C1BD;" />
+            <Label layoutX="75.0" layoutY="14.0" text="ID">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="240.0" layoutY="14.0" text="Color">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="101.0" text="Size">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="101.0" text="Picture">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="187.0" text="Description">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="187.0" text="Price">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtPicture" layoutX="193.0" layoutY="135.0" prefHeight="33.0" prefWidth="141.0" promptText="Picture" style="-fx-background-color: transparent; -fx-border-color: #59C1BD;" />
+         </children>
+      </Pane>
+   </right>
+</BorderPane>
